@@ -54,6 +54,24 @@
             tools:ignore="MissingConstraints" />
 
 
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="188dp"
+            android:layout_height="80dp"
+            android:singleLine="false"
+            android:text="Choose your \n account type"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/profile_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.791"
+            tools:ignore="HardcodedText" />
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
