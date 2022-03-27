@@ -13,3 +13,5 @@
 .externalNativeBuild
 .cxx
 local.properties
+src/README.md
+README.md
