@@ -68,7 +68,7 @@
       android:layout_marginStart="32dp"
       android:layout_marginTop="16dp"
       android:layout_marginEnd="32dp"
-      app:startIconDrawable="@drawable/ic_baseline_lock_24"
+      app:startIconDrawable="@drawable/lock_red"
       android:hint="Password"
       app:counterEnabled="true"
       app:counterMaxLength="20"
@@ -93,7 +93,6 @@
       android:layout_marginStart="32dp"
       android:layout_marginTop="16dp"
       android:layout_marginEnd="32dp"
-
       android:hint="Confirm Password"
       app:counterEnabled="true"
       app:counterMaxLength="20"
@@ -103,9 +102,10 @@
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
       app:passwordToggleTint="@color/teal_200"
-      app:startIconDrawable="@drawable/ic_baseline_lock_24">
+      app:startIconDrawable="@drawable/lock_red">
 
     <com.google.android.material.textfield.TextInputEditText
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
