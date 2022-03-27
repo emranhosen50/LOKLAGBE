@@ -48,4 +48,4 @@ implementation 'com.google.android.material:material:1.1.0-alpha09'
 ```
 
 
-![alt text](https://github.com/emranhosen50/LOKLAGBE/blob/emranhosen50/app/src/main/res/drawable-v24/loklagbe.gif)
+![alt text](https://github.com/emranhosen50/LOKLAGBE/blob/emranhosen50/app/src/main/res/drawable-v24/loklagbe_light.gif)
