@@ -44,6 +44,10 @@ implementation 'de.hdodenhof:circleimageview:3.1.0'
 // this dependencies provided to uses android.material
 implementation 'com.google.android.material:material:1.1.0-alpha09'
 
+// this dependencies provided to uses navigation
+implementation 'androidx.navigation:navigation-fragment:2.4.1'
+implementation 'androidx.navigation:navigation-ui:2.4.1'
+
 }
 ```
 
