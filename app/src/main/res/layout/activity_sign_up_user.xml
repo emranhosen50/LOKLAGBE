@@ -41,7 +41,7 @@
       android:layout_marginStart="32dp"
       android:layout_marginTop="16dp"
       android:layout_marginEnd="32dp"
-      app:startIconDrawable="@drawable/ic_baseline_person_24"
+      app:startIconDrawable="@drawable/icon_profile"
 
       android:hint="Email"
       app:helperText="Required"
