@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="315dp"
+        android:layout_height="79dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:src="@drawable/loklagbe"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="Sign up as a Service Provider"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/gifImageView"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Enter your NID card Passport number"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="italic"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:hint="NID/Passport number"
+        android:textColorHint="@color/black"
+        app:boxBackgroundColor="#F6F7F9"
+        app:boxCornerRadiusBottomEnd="15dp"
+        app:boxCornerRadiusBottomStart="15dp"
+        app:boxCornerRadiusTopEnd="15dp"
+        app:boxCornerRadiusTopStart="15dp"
+        app:boxStrokeColor="#D72357"
+        app:boxStrokeWidth="3dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textfield"
+            android:layout_width="325dp"
+            android:layout_height="80dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:layout_below="@+id/textInLayout"
+        android:layout_alignEnd="@+id/gifImageView"
+        android:layout_marginTop="150dp"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:textSize="18dp" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:layout_below="@+id/textInLayout"
+        android:layout_alignStart="@+id/gifImageView"
+        android:layout_marginTop="150dp"
+        android:text="Back"
+        android:textAllCaps="false"
+        android:textSize="18dp" />
+</RelativeLayout>
