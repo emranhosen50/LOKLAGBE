@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="315dp"
+        android:layout_height="79dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:src="@drawable/loklagbe" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="Sign up as a Service Provider"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/gifImageView"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="30dp"
+        android:text="Choose your service type"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        android:textStyle="italic" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textView5"
+        android:layout_alignStart="@+id/textView5"
+        android:contextClickable="true">
+        <RadioButton
+            android:id="@+id/rb_electrician"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Electrician"
+            android:textSize="15dp"
+            android:buttonTint="#D72357"/>
+        <RadioButton
+            android:id="@+id/rb_plumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plumber"
+            android:textSize="15dp"
+            android:layout_marginTop="-10dp"
+            android:buttonTint="#D72357"/>
+        <RadioButton
+            android:id="@+id/rb_painter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Painter"
+            android:textSize="15dp"
+            android:layout_marginTop="-10dp"
+            android:buttonTint="#D72357"/>
+        <RadioButton
+            android:id="@+id/rb_hw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Household-Worker"
+            android:textSize="15dp"
+            android:layout_marginTop="-10dp"
+            android:buttonTint="#D72357"/>
+        <RadioButton
+            android:id="@+id/rb_gardener"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gardener"
+            android:textSize="15dp"
+            android:layout_marginTop="-10dp"
+            android:buttonTint="#D72357"/>
+        <RadioButton
+            android:id="@+id/rb_bc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bike or car mechanic"
+            android:textSize="15dp"
+            android:layout_marginTop="-10dp"
+            android:buttonTint="#D72357"/>
+        <RadioButton
+            android:id="@+id/rb_deliveryman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delivery-Man"
+            android:textSize="15dp"
+            android:layout_marginTop="-10dp"
+            android:buttonTint="#D72357"/>
+        <RadioButton
+            android:id="@+id/rb_cw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Construction Worker"
+            android:textSize="15dp"
+            android:layout_marginTop="-10dp"
+            android:buttonTint="#D72357"/>
+    </RadioGroup>
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:layout_below="@+id/radio_group"
+        android:layout_alignEnd="@+id/gifImageView"
+        android:layout_marginTop="20dp"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:textSize="18dp" />
+
+
+</RelativeLayout>

@@ -10,7 +10,7 @@ public class SignUpUser extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sign_up_user);
+        setContentView(R.layout.activity_sp_choose_service);
 
         Objects.requireNonNull(getSupportActionBar()).hide();
     }
